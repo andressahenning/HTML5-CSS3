@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>  <!--Pseudo-classes definem estado de elementos dentro da HTML; Pseudo-elemento mexe diretamente no conteúdo -->
+        <style>
+        div{
+            display: inline-block; /*alinhamento de bloco - uma do lado da outra*/
+            background-color: lightgrey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div#d1{background-color: blue;}
+        div:hover{ background-color: yellow;}
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <p>Mais exemplos na <a href="hover.html">próxima página</a>.</p>
+    <p>Personalizando Links - <a href="links.html">Página 03.</a></p> 
+</body>
+</html>
