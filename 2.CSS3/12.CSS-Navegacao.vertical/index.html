@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de navegação vertical</title>
+    <style>
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        ul a {
+            width: 200px;
+            display: block;
+            height: 40px;
+            color: #000;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            text-indent: 40px;
+            line-height: 40px;
+            background: #f7b600 url(imagens/menu.png);
+        }
+        a:hover, .selecionado a { 
+            background-position: right bottom;
+            background-color: #f99200; /*caso ocorra algum erro com a imagem*/
+            color: #fff;
+        }
+    </style>
+</head>
+<body id="home">
+    <header>
+        <h2>Home</h2>
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>
+</body>
+</html>
